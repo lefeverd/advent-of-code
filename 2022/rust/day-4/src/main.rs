@@ -1,5 +1,7 @@
 use std::{fs, str::FromStr};
 
+// Another interesting method to solve this is by using RangeInclusive : https://fasterthanli.me/series/advent-of-code-2022/part-4
+
 struct Assignment {
     sectionStart: u32,
     sectionEnd: u32,
